@@ -308,7 +308,7 @@ export const PremiumBundlePromotion: React.FC = () => {
         duration: 0.75,
         ease: [0.22, 1, 0.36, 1]
       }}>
-          <img src="https://storage.googleapis.com/storage.magicpath.ai/user/365329335495827456/figma-assets/9e113d58-8b02-42b0-a59b-7d5c06b9ff36.png" alt="Premium Bundle" className="pbp-badge-img" />
+          <img src="/premium.gif" alt="Premium Bundle" className="pbp-badge-img" />
 
           <div style={{
           display: 'flex',
