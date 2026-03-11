@@ -44,7 +44,7 @@ export const NavigationHeader = ({
     label: 'Process',
     handler: onProcess
   }] as any[];
-  const logoSrc = scrolled || menuOpen ? 'https://storage.googleapis.com/storage.magicpath.ai/user/365329335495827456/figma-assets/dd0f6ef3-8e32-4800-be76-9d9c9922fff8.svg' : 'https://storage.googleapis.com/storage.magicpath.ai/user/365329335495827456/figma-assets/57aff262-3bf9-4839-88d9-d489ff4f168e.svg';
+  const logoSrc = scrolled || menuOpen ? '/dark-logo.svg' : '/light-logo.svg';
   const handleNavClick = (handler?: () => void) => {
     setMenuOpen(false);
     handler?.();
