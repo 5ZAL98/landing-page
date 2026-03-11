@@ -14,7 +14,7 @@ const features = [{
   id: 'rx-configurator',
   title: 'Rx configurator',
   description: 'Single vision, progressive, bifocal — built in',
-  iconSrc: 'https://storage.googleapis.com/storage.magicpath.ai/user/365329335495827456/figma-assets/1f384a6e-a704-4eeb-b59c-8964bda2b720.svg',
+  iconSrc: '/RX.svg',
   iconAlt: 'Rx configurator icon'
 }, {
   id: 'lab-connected',
