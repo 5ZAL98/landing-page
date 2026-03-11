@@ -76,7 +76,7 @@ export const NavigationHeader = ({
         flexShrink: 0
       }} aria-label="Home">
           <img src={logoSrc} alt="Logo" style={{
-          width: '120px',
+          width: '160px',
           height: 'auto',
           display: 'block',
           transition: 'opacity 0.35s ease'
