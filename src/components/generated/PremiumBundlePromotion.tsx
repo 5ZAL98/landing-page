@@ -288,12 +288,7 @@ export const PremiumBundlePromotion: React.FC = () => {
       </section>;
   }
   return <section className="pbp-section">
-      <div className="pbp-inner" style={{
-      paddingTop: "80px",
-      paddingBottom: "80px",
-      paddingLeft: "70px",
-      paddingRight: "70px"
-    }}>
+      <div className="pbp-inner">
         {/* Left: copy */}
         <motion.div className="pbp-left" initial={{
         opacity: 0,
@@ -598,8 +593,8 @@ export const PremiumBundlePromotion: React.FC = () => {
         @media (max-width: 768px) {
           .pbp-inner {
             flex-direction: column;
-            padding: 48px 24px 56px 24px;
-            gap: 40px;
+            padding: 48px 16px 56px 16px;
+            gap: 36px;
             align-items: stretch;
           }
           .pbp-left {
@@ -607,20 +602,21 @@ export const PremiumBundlePromotion: React.FC = () => {
           }
           .pbp-right {
             flex: unset;
+            width: 100%;
           }
           .pbp-badge-img {
             width: 100px;
             height: 100px;
           }
+          .pbp-row {
+            flex-direction: column;
+            gap: 12px;
+          }
         }
 
         @media (max-width: 480px) {
           .pbp-inner {
-            padding: 40px 20px 48px 20px;
-          }
-          .pbp-row {
-            flex-direction: column;
-            gap: 12px;
+            padding: 36px 12px 44px 12px;
           }
         }
 
